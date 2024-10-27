@@ -1,3 +1,9 @@
+<script setup>
+  import Navbar from '@/components/navbar.vue';
+  import Hero from '@/components/hero.vue';
+</script>
+
 <template>
-  <h1>Vue Jobs</h1>
+  <Navbar />
+  <Hero />
 </template>
